@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+</head>
+<body>
+
+    <h2><u>Survey Form:</u></h2>
+    <form action="http://127.0.0.1:5500/thank.html">
+     <label for="fname">Enter First Name:</label>
+     <input id="fname" type="text" placeholder="First Name" required>
+     
+     <label for="lname">Enter Your last Name:</label>
+     <input type="text" id="lname" placeholder="Last Name">
+
+    <br><br>
+    <label for="email">Enter email:</label>
+    <input type="email" id="email">
+    <br><br>
+
+    <label for="Pno">Phone no:</label>
+    <input type="Number" id="Pno">
+    <br><br>
+ 
+    <label for="DOB">Enter Your Date Of Birth:</label>
+     <input type="date" id="DOB">
+    <br><br>
+
+    <label for="Size">Select Your Size:</label>
+    <br><br>
+    <input type="radio" name="Size" id="Size" value="Meduim">Medium
+    <input type="radio" name="Size" id="Size"value="small">Small
+    <input type="radio"name="Size" id="Size"value="large">Large
+    <br><br>
+    <label for="color">Select Colour:</label>
+    <input type="color" name="" id="color">
+    <br><br>
+
+
+    <label for="PaymentOpt">Please select a payment option:</label>
+    <select name="Payment" id="PaymentOpt">
+        <option value="">gpay</option>
+        <option value="">amazonpay</option>
+        <option value="">UPI</option>
+    </select>
+    <br><br>
+
+
+    <label for="Checkbox">Please select Your Languages:</label><br>
+     <input type="checkbox" name="Language" id=""/>English
+     <input type="checkbox" name="Language" id=""/>Hindi
+     <input type="checkbox" name="Language" id=""/>Tamil
+
+
+
+    <br><br>
+    <label for="Feedback">Please Prove Feedback:</label>
+    <textarea name="Comment" id="Feedback" rows="20"cols="105" placeholder="Enter Comemnts Here:"></textarea>
+    <br><br>
+     <label for="Submit">Click here to Submit:</label>
+     <input type="Submit" name="button" id="Submit">
+     <br><br>
+     <label for="reset">If you wish:</label>
+    <input type="reset">
+
+
+
+    </form>
+</body>
+</html>
